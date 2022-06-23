@@ -1976,6 +1976,19 @@ input, select, textarea {
 					opacity: 0.1;
 				}
 
+	
+				sendbutton {
+				  width: 320px;
+				  display: inline-block;
+				  border: 0;
+				  padding: 10px;
+				  background: #fff;
+				  border-radius: 6px;
+				}
+
+
+
+
 /* Features */
 
 	.features {

@@ -38,7 +38,15 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				    <h1>Jeriel Madamba</h1>
 				    <p><strong>Data Analyst | Data Scientist | Business Intelligence</strong></p>
 				    <ul class="actions">
-				      <li><a href="#one" class="button primary">About Me</a></li>
+				      <!--button scroll effect-->
+					<li><a href="#one" class="button primary" onclick="scrollToSection('#one')">About Me</a></li>
+					<script>
+					function scrollToSection(sectionId) {
+					    var section = document.querySelector(sectionId);
+					    section.scrollIntoView({behavior: "smooth"});
+					}
+					</script>    
+					    
 				    </ul>
 				  </div>
 				  <video autoplay muted loop id="bg-video" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -1;">

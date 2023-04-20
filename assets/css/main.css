@@ -2592,7 +2592,7 @@ input, select, textarea {
 			max-width: 20%;
 		}
 
-			.image.dp img, {
+			.image-dp {
 				width: 100%;
 			}
 

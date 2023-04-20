@@ -3933,3 +3933,26 @@ input, select, textarea {
 			font-weight: normal;
 			color: #d7e0ea;
 		}
+
+
+
+/* Project */
+
+
+.project-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.project-right {
+  flex-basis: 60%;
+}
+

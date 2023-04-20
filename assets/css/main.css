@@ -2604,7 +2604,7 @@ input, select, textarea {
 /* up to here*/
 
 		.image.left, .image.right {
-			max-width: 20%;
+			max-width: 25%;
 		}
 
 			.image.left img, .image.right img {

@@ -3953,6 +3953,6 @@ input, select, textarea {
 }
 
 .project-right {
-  flex-basis: 90%;
+  flex-basis: 50%;
 }
 

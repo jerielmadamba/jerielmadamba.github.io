@@ -2587,8 +2587,24 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+/* Image leij */
+		.image.dp {
 			max-width: 30%;
+		}
+
+			.image.dp img, {
+				width: 100%;
+			}
+
+		.image.dp {
+			float: left;
+			margin: 0 1.5em 1em 0;
+			top: 0.25em;
+		}
+/* up to here*/
+
+		.image.left, .image.right {
+			max-width: 25%;
 		}
 
 			.image.left img, .image.right img {
@@ -2600,6 +2616,7 @@ input, select, textarea {
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
 		}
+
 
 		.image.right {
 			float: right;

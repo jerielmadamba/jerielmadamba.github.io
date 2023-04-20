@@ -2588,7 +2588,7 @@ input, select, textarea {
 		}
 
 /* Image leij */
-		.image.dp {
+		.image-dp {
 			max-width: 20%;
 		}
 
@@ -2596,7 +2596,7 @@ input, select, textarea {
 				width: 100%;
 			}
 
-		.image.dp {
+		.image-dp {
 			float: left;
 			margin: 0 1.5em 1em 0;
 			top: 0.25em;
